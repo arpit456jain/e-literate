@@ -1,0 +1,179 @@
+.navbar .collapse a
+{
+	color: #fff;
+	padding: 2px 5px;
+}
+
+.navbar .collapse a:hover
+{
+	color:#fff;
+	background:#093375; 
+	padding: 5px 10px;
+	transition: .8s;
+	border-radius: 20px;
+}
+.navbar-brand2
+{
+	font-size: 2.4rem;
+	font-family:sans-serif;
+}
+.main h1
+{
+	font-size: 5rem;
+}
+.main h1:hover 
+{
+	font-size: 6rem;
+	color: #093375;
+	transition: 1s;
+}
+.main h5:hover
+{
+	font-size: 1.4rem;
+	color: #093375;
+	transition: 1s;
+}
+.reg
+{
+	/*background-color:#093375;*/
+	background-color: #1f66b8;
+	font-size: 1.4rem;
+	border-radius: 30px;
+	padding: 2px 50px;
+}
+#carouselExampleIndicators
+{
+	height: 80vh;
+	border-radius: 30px;
+}
+#carouselExampleIndicators img
+{
+	height: 80vh;
+	border-radius: 30px;
+}
+
+.myheading span
+{
+	 font-family: 'Quicksand', sans-serif; 
+	 text-align:center;
+	 background:#093375;
+	 font-size: 2rem;
+	 font-weight: 700;
+	 color: #fff;
+	 padding: 20px 50px;
+	 border-radius: 40px;
+}
+.myheading span:hover 
+{
+	padding: 20px 100px;
+	transition: .5s;
+	font-size: 2.5rem;
+	font-weight: 800;
+}
+.myheading h4:hover,h5:hover,h3:hover
+{
+	font-size: 2rem;
+	transition: .5s;
+}
+.mycards h1
+{
+	font-size: 2rem;
+}
+.mycards .card ,.mycards img
+{
+	border-radius: 20px 60px;
+}
+.mycards .card:hover 
+{
+	box-shadow: 4px 4px 3px 3px #04275e;
+	transition: .6s;
+}
+.mycards .col:hover 
+{
+	margin: 2px 0px 2px 0px;
+	padding: 2px 0px 2px 0px;
+	transition: .6s;
+}
+
+.myfooter .container ul , .myfooter2 ul
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.myfooter .container ul li
+{
+	list-style: none;
+	margin-left: 20px;
+	font-size: 2.5rem;
+	padding: 10px;
+}
+.myfooter2 ul li
+{
+	list-style: none;
+	margin-left: 20px;
+	font-size: 1.1rem;
+	padding: 10px;
+}
+.bg
+{
+	background-color:#b9bffa;
+}
+.myfooter2 ul li a
+{
+	color: black;
+	text-decoration-line: none;
+}
+.myfooter .container ul li:nth-child(1) a
+{
+	color:#3B5998;
+}
+.myfooter .container ul li:nth-child(2) a
+{
+	color:  #f40083;
+}
+.myfooter .container ul li:nth-child(3) a
+{
+	color:#007bb5;
+}
+
+.myfooter .container ul li:nth-child(4) a
+{
+	color: black;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    font-size: 2.8rem;
+}
+.btn2
+{
+	font-size: 1rem;
+	text-transform: capitalize;
+	transition: .5s;
+}
+.btn2:hover
+{
+	background-color: #1f66b8;
+	color: #fff;
+	font-size: 1.2rem;
+	border-radius: 30px;
+	padding: 5px 30px;
+}
+.myfooter .container address
+{
+	font-size: 1.2rem;
+}
+.myfooter .container address:hover
+{
+	font-size: 1.5rem;
+	color: #093375;
+	transition: .5s;
+}
+.myfooter .container h2:hover
+{
+	font-size: 2.6rem;
+	color: #093375;
+	transition: .5s;
+	cursor: pointer;
+}
