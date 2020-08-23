@@ -3,9 +3,10 @@
 	color: #fff;
 	padding: 2px 5px;
 }
-.baricon
+
+#baricon
 {
-	/*font-size: 6rem;*/
+	font-size: 2rem;
 }
 .navbar a img
 {
@@ -52,12 +53,12 @@
 }
 #carouselExampleIndicators
 {
-	height: 60vh;
+	height: 80vh;
 	border-radius: 30px;
 }
 #carouselExampleIndicators img
 {
-	height: 60vh;
+	height: 80vh;
 	border-radius: 30px;
 }
 
@@ -220,6 +221,10 @@
 	{
 		font-size: 2rem;
 	}
+	#baricon
+	{
+		font-size: 1.7rem;
+	}
 }
 
 @media(max-width:530px)
@@ -230,7 +235,7 @@
 	}
 	.navbar a img
 	{
-		width:35vw; 
+		width:37vw; 
 		padding: 0px 0px;
 	}
 	.myfooter2 ul li
@@ -246,6 +251,18 @@
 		padding: 5px 20px;
 	}
 	.myheading span
+	{
+		font-size: 1.3rem;
+	}
+	#carouselExampleIndicators
+	{
+		height: 60vh;
+	}
+	#carouselExampleIndicators img
+	{
+		height: 60vh;
+	}
+	#baricon
 	{
 		font-size: 1.3rem;
 	}
