@@ -312,6 +312,7 @@
 	.main h1:hover 
 	{
 		font-size: 4rem;
+		color:red;
 	}
 	.main h5:hover
 	{
