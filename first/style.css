@@ -273,13 +273,13 @@
 	}
 	.myheading span
 	{
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.myheading span:hover 
 	{
 		padding: 20px 50px;
 		transition: .5s;
-		font-size: 1.6rem;
+		font-size: 1.2rem;
 		font-weight: 800;
 	}
 	.myheading h4:hover,h5:hover,h3:hover
