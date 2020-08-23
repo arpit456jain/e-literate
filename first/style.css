@@ -91,7 +91,7 @@
 }
 .mycards .card ,.mycards img
 {
-	border-radius: 20px 60px;
+	border-radius: 20px;
 }
 .mycards .card:hover 
 {
@@ -225,6 +225,27 @@
 	{
 		font-size: 1.7rem;
 	}
+	
+	.myheading span
+{
+	 
+	
+	 font-size: 1.5rem;
+	 font-weight: 700;
+	 padding: 20px 50px;
+}
+.myheading span:hover 
+	{
+		padding: 20px 100px;
+		transition: .5s;
+		font-size: 1.8rem;
+		font-weight: 800;
+	}
+.myheading h4:hover,h5:hover,h3:hover
+{
+	font-size: 2rem;
+	transition: .5s;
+}
 }
 
 @media(max-width:530px)
@@ -252,7 +273,19 @@
 	}
 	.myheading span
 	{
-		font-size: 1.3rem;
+		font-size: 1.2rem;
+	}
+	.myheading span:hover 
+	{
+		padding: 20px 50px;
+		transition: .5s;
+		font-size: 1.6rem;
+		font-weight: 800;
+	}
+	.myheading h4:hover,h5:hover,h3:hover
+	{
+	font-size: 1.7rem;
+	transition: .5s;
 	}
 	#carouselExampleIndicators
 	{
