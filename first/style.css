@@ -3,7 +3,10 @@
 	color: #fff;
 	padding: 2px 5px;
 }
-
+.baricon
+{
+	/*font-size: 6rem;*/
+}
 .navbar a img
 {
 	width:16vw; 
@@ -229,5 +232,21 @@
 	{
 		width:35vw; 
 		padding: 0px 0px;
+	}
+	.myfooter2 ul li
+	{
+		/*border: 2px solid red;*/
+		padding: 0px ;
+		margin: 2px;
+	}
+	.btn2:hover
+	{
+		
+		font-size: 1.2rem;
+		padding: 5px 20px;
+	}
+	.myheading span
+	{
+		font-size: 1.3rem;
 	}
 }
