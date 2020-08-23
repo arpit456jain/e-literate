@@ -277,9 +277,9 @@
 	}
 	.myheading span:hover 
 	{
-		padding: 20px 50px;
+		padding: 20px 70px;
 		transition: .5s;
-		font-size: 1.2rem;
+		font-size: 1.4rem;
 		font-weight: 800;
 	}
 	.myheading .ourachivements
