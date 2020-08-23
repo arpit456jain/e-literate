@@ -23,13 +23,13 @@
 }
 .main h1:hover 
 {
-	font-size: 6rem;
+	font-size: 7rem;
 	color: #093375;
 	transition: 1s;
 }
 .main h5:hover
 {
-	font-size: 1.4rem;
+	font-size: 2rem;
 	color: #093375;
 	transition: 1s;
 }
