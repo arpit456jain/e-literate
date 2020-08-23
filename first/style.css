@@ -282,6 +282,16 @@
 		font-size: 1.2rem;
 		font-weight: 800;
 	}
+	.myheading .ourachivements
+	{
+		padding: 20px 30px;
+		font-size: 1rem;
+	}
+	.myheading .ourachivements:hover
+	{
+		padding: 22px 35px;
+		font-size: 1.1rem;
+	}
 	.myheading h4:hover,h5:hover,h3:hover
 	{
 	font-size: 1.7rem;
