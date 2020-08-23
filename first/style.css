@@ -193,7 +193,7 @@
 {
 	body
 	{
-		background-color: red;
+		/*background-color: red;*/
 	}
 	.navbar a img
 	{
@@ -231,11 +231,11 @@
 {
 	body
 	{
-		background-color: yellow;
+		/*background-color: yellow;*/
 	}
 	.navbar a img
 	{
-		width:37vw; 
+		width:40vw; 
 		padding: 0px 0px;
 	}
 	.myfooter2 ul li
