@@ -289,8 +289,8 @@
 	}
 	.myheading .ourachivements:hover
 	{
-		padding: 22px 35px;
-		font-size: 1.1rem;
+		padding: 22px 40px;
+		font-size: 1.3rem;
 	}
 	.myheading h4:hover,h5:hover,h3:hover
 	{
@@ -308,5 +308,13 @@
 	#baricon
 	{
 		font-size: 1.3rem;
+	}
+	.main h1:hover 
+	{
+		font-size: 5rem;
+	}
+	.main h5:hover
+	{
+		font-size:1.7rem;
 	}
 }
