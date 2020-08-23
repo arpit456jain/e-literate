@@ -4,6 +4,12 @@
 	padding: 2px 5px;
 }
 
+.navbar a img
+{
+	width:16vw; 
+	padding: 20px 5px;
+}
+
 .navbar .collapse a:hover
 {
 	color:#fff;
@@ -176,4 +182,52 @@
 	color: #093375;
 	transition: .5s;
 	cursor: pointer;
+}
+
+
+@media(max-width:990px)
+{
+	body
+	{
+		background-color: red;
+	}
+	.navbar a img
+	{
+		width:20vw; 
+		padding: 20px 5px;
+	}
+	.navbar .collapse a
+	{
+		font-size: 1.5rem;
+		margin: 2px 0px;
+	}
+	.navbar .collapse a:hover
+	{ 
+		padding: 7px 12px;
+	}	
+	.main h1
+	{
+		font-size: 3rem;
+	}
+	.main h1:hover 
+	{
+		font-size:5rem;
+	}
+	.main h5:hover
+	{
+		font-size: 2rem;
+	}
+}
+
+@media(max-width:530px)
+{
+	body
+	{
+		background-color: yellow;
+	}
+	.navbar a img
+	{
+		width:35vw; 
+		padding: 0px 0px;
+	}
 }
