@@ -1,6 +1,4 @@
 
-  <!--used in django for images-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,24 +13,15 @@
 
      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>E-LITERATE</title>
-<!--css code-->
-   
+    <title>E-LITERATE</title>  
 </head>
 <body>
 
-
-
- <!-- <div id="loading"></div> -->
-
-
-<!--navbar-->
 <div id="mainbg" style="background: url('books.jpg');background-size: 100% 100%;background-attachment: fixed ;height: 100vh;">
 	
 <nav class="navbar navbar-expand-lg mylogo navbar-light">
@@ -94,14 +83,31 @@
       </center>
 </div>
 
+   
+<div class="container-fluid text-center py-4 my-4" style="background-color: #b9bffa;">
+	<h3>SELECT YOUR EXAM CATEGORY</h3>
+	<P>Click to view all available Test Series for an exam</P>
+<div class="container myicons">
+	<div class="row" id="myicons2">
+		<!-- by js -->
+		<!-- <div class="col-lg-3 col">
+			<div class="card mb-3">
+			  <div class="row no-gutters">
+			    <div class="col-md-4 pl-3 pt-3">
+			      <img src="icons/1.jpg" class="card-img" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body">
+			        <h5 class="card-title">Bank & Insurance</h5>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div> -->
+	</div>
+</div>
+</div>
 
-    
-
-
-
-
-
- <hr class="hr">
 
 
  <div class="container myheading  text-center mb-3">
@@ -244,212 +250,32 @@
 
 
         
-
-
- 
-
- <!--  <div id="noticeContainer">
-        <div id="deletNoticeBox">
-            <i class="fa fa-close fa-2x"></i>
-        </div>
-     <h1 class='heading13'>This is Notice Box</h1> 
-        <center><h1 class='heading13' style='color:green'>Stay Home Stay Safe ! !</h1><center>
-        <h2 class="heading20">Study From Home</h2>
-        <p class='heading20'>Due to novel covid-19,The Team E-Literate is obliged to provide you the best way to
-            prepare for your EXAM.</p>
-            <img src="/static/sep.jpeg" alt="" id='image10'>
-
-    </div>-->
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-
-
-<script>
-
-
-
-
-
-// for notice box..
-
-let removeNoticeBox = document.getElementById('deletNoticeBox');
-console.log(removeNoticeBox);
-removeNoticeBox.addEventListener('click', () => {
-    let noticeContainer = document.getElementById('noticeContainer');
-    noticeContainer.style = 'display:none';
-    console.log('you clicked on the cross button');
-
-});
-
-//this is index.js....
-console.log('this is index.js');
-let exambarhead = document.getElementsByClassName('exambarhead');
-let exambar = document.getElementsByClassName('exambar');
-// console.log(parentGrid,grid,exambar.length);
-Array.from(exambar).forEach(e => {
-    console.log(e);
-
-    e.addEventListener('click',(elem)=>{
-        // console.log('Deepanshu Katiyar');
-        // let id = document.getElementById(e.target.id);
-        // console.log(elem.target.id);
-        // let targetedElem = document.getElementById(elem.target.id);
-        // console.log(targetedElem);
-
-        let upcomingHtml = `
-        <div class="grid">
-            <div class="gridchild">
-                <div class="logo">
-                    <img src="/static/rambook.jpg"  id="image3">
-                </div>
-               <div class="logotitle">
-            <h5>JEE MAINS</h5>
-            <h4>10 test</h4>
-        </div>
-            </div>
-
-           <!-- <div class="gridchild">
-                <div class="logo">
-                    <img src="SBI.png" alt="SBI" id="image3">
-                </div>
-                <div class="logotitle">
-                    <h1>SBI</h1>
-                    <p>Clerk</p>
-                </div>
-            </div>
-
-            <div class="gridchild">
-                <div class="logo">
-                    <img src="SBI.png" alt="SBI" id="image3">
-                </div>
-                <div class="logotitle">
-                    <h1>SBI</h1>
-                    <p>Clerk</p>
-                </div>
-            </div>-->
-
-
-
-        </div>
-        `
-
-        let bankingHtml = `
-        <div class="grid">
-            <div class="gridchild">
-                <div class="logo">
-                    <img src="/static/rambook.jpg" id="image3">
-                </div>
-                <div class="logotitle">
-            <h5>NEET</h5>
-            <h4>50 test</h4>
-        </div>
-            </div>
-
-            <!--<div class="gridchild">
-                <div class="logo">
-                    <img src="SBI.png" alt="SBI" id="image3">
-                </div>
-                <div class="logotitle">
-                    <h1>Bank</h1>
-                    <p>Clerk</p>
-                </div>
-            </div>
-
-            <div class="gridchild">
-                <div class="logo">
-                    <img src="SBI.png" alt="SBI" id="image3">
-                </div>
-                <div class="logotitle">
-                    <h1>Bank</h1>
-                    <p>Clerk</p>
-                </div>
-            </div>
-
-            <div class="gridchild">
-                <div class="logo">
-                    <img src="SBI.png" alt="SBI" id="image3">
-                </div>
-                <div class="logotitle">
-                    <h1>Bank</h1>
-                    <p>Clerk</p>
-                </div>
-            </div>-->
-
-        </div>
-        `
-        let sscHtml =`<div class="grid">
-                <div class="gridchild">
-                <div class="logo">
-                    <img src="/static/rambook.jpg" id="image3">
-                </div>
-                <div class="logotitle">
-            <h5>GATE</h5>
-            <h4>10 test</h4>
-        </div>
-            </div>
-            </div>`
-
-
-
-
-        // console.log(html);
-        let parentGrid = document.getElementById('parentGrid');
-        // let grid = document.getElementsByClassName('grid');
-        // console.log(parentGrid,grid);
-
-        if(elem.target.id == 1){
-            parentGrid.innerHTML = upcomingHtml;
-
-        }else if(elem.target.id ==2){
-            parentGrid.innerHTML = bankingHtml;
-
-        } else if (elem.target.id == 3) {
-            parentGrid.innerHTML = sscHtml;
-
-        } else if (elem.target.id == 4) {
-            parentGrid.innerHTML = teachingHtml;
-
-        } else if (elem.target.id == 5) {
-            parentGrid.innerHTML = jeeHtml;
-
-        } else if (elem.target.id == 6) {
-            parentGrid.innerHTML = gateHtml;
-
-        } else if (elem.target.id == 7) {
-            parentGrid.innerHTML = medicalHtml;
-
-        } else if (elem.target.id == 8) {
-            parentGrid.innerHTML = upscHtml;
-
-        } else if (elem.target.id == 9) {
-            parentGrid.innerHTML = defenceHtml;
-
-        } else if (elem.target.id == 10) {
-
-            parentGrid.innerHTML = netHtml;
-
-        }
-
-        // switch(elem.target.id){
-        //     case 1:
-        //         parentGrid.innerHTML = html;
-
-        // }
-
-
-    })
-
-});
-
-
-</script>
-
+    <script>
+    	let icons = document.getElementById('myicons2');
+    	let category = ['JEE mains',' NEET' , 'GATE-CSE' , 'GATE-ECE' , 'GATE-ME' , 'GATE-EE' , 'GATE-CE' , 'GATE-CHE', 'CET' , 'UPTU']
+    	for(let i=0;i<10;i++)
+    	{
+    	myicons2.innerHTML += `<div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+			<div class="card mb-3">
+			  <div class="row no-gutters">
+			    <div class="col-md-4 pl-2 py-3">
+			      <img src="icons/${i+1}.jpg" class="card-img ml-1" alt="...">
+			    </div>
+			    <div class="col-md-8">
+			      <div class="card-body mt-3 px-1">
+			        <h5 class="card-title">${category[i]}</h5>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>`
+	}
+    </script>
 </body>
 </html>

@@ -43,6 +43,9 @@
 	color: #093375;
 	transition: 1s;
 }
+
+
+
 .reg
 {
 	/*background-color:#093375;*/
@@ -80,7 +83,7 @@
 	font-size: 2.5rem;
 	font-weight: 800;
 }
-.myheading h4:hover,h5:hover,h3:hover
+.myheading h4:hover,.myheading h5:hover, .myheading h3:hover
 {
 	font-size: 2rem;
 	transition: .5s;
@@ -187,6 +190,20 @@
 	transition: .5s;
 	cursor: pointer;
 }
+/*myicons*/
+.myicons .row .col .card
+{
+	border:1px solid black
+}
+.myicons .row .col img
+{
+	/*width: 10vw;*/
+	height: 10vh;
+}
+
+
+
+
 
 
 @media(max-width:990px)
@@ -241,11 +258,23 @@
 		font-size: 1.8rem;
 		font-weight: 800;
 	}
-.myheading h4:hover,h5:hover,h3:hover
-{
-	font-size: 2rem;
-	transition: .5s;
-}
+.myheading h4:hover,.myheading h5:hover,.myheading h3:hover
+	{
+		font-size: 2rem;
+		transition: .5s;
+	}
+
+	.myicons .row .col img
+	{
+		/*width: 10vw;*/
+		height: 15vh;
+		width: 50%;
+	}
+	.myicons .row .col
+	{
+		margin: 0 auto;
+	}
+
 }
 
 @media(max-width:530px)
@@ -292,7 +321,7 @@
 		padding: 22px 40px;
 		font-size: 1.3rem;
 	}
-	.myheading h4:hover,h5:hover,h3:hover
+	.myheading h4:hover, .myheading h5:hover, .myheading h3:hover
 	{
 	font-size: 1.7rem;
 	transition: .5s;
@@ -311,7 +340,8 @@
 	}
 	.main h1:hover 
 	{
-		font-size: 3.4rem;
+		font-size: 3.5rem;
+		color: red;
 	}
 	.main h5:hover
 	{
