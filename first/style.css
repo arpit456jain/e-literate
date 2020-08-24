@@ -267,7 +267,7 @@
 	.myicons .row .col img
 	{
 		/*width: 10vw;*/
-		height: 15vh;
+		height: 10vh;
 		width: 50%;
 	}
 	.myicons .row .col
@@ -346,5 +346,17 @@
 	.main h5:hover
 	{
 		font-size:1.7rem;
+	}
+	.myicons .row .col .card-body
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.myicons .row .col img
+	{
+		width: 9vw;
+		height: 8vh;
+		margin: 0;
+		padding: 0;
 	}
 }
