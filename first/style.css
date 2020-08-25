@@ -228,13 +228,9 @@
 	padding: 5px;
 	transition: .3s;
 	border-radius: 50px;
-	/*transform: rotate(-7deg);*/
-	
+	/*transform: rotate(-7deg);*/	
 }
-.myicons .row .col .card .card-body
-{
-	transform: rotate(-4deg); 	
-}
+
 
 @media(max-width:990px)
 {
