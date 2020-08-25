@@ -87,25 +87,13 @@
 <div class="container-fluid text-center py-4 my-4" style="background-color: skyblue;">
 	<h3>SELECT YOUR EXAM CATEGORY</h3>
 	<P>Click to view all available Test Series for an exam</P>
-<div class="container myicons">
-	<div class="row" id="myicons2">
+	<div class="container myicons">
+		<div class="row" id="myicons2">
 		<!-- by js -->
-		<!-- <div class="col-lg-3 col">
-			<div class="card mb-3">
-			  <div class="row no-gutters">
-			    <div class="col-md-4 pl-3 pt-3">
-			      <img src="icons/1.jpg" class="card-img" alt="...">
-			    </div>
-			    <div class="col-md-8">
-			      <div class="card-body">
-			        <h5 class="card-title">Bank & Insurance</h5>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		</div> -->
-	</div>
-</div>
+			    
+  	
+	    </div>
+   </div>
 </div>
 
 
@@ -245,8 +233,7 @@
                <li><a  href="#" class="btn btn2">services</a></li>
            </ul>
 </div>
-</div>
-
+</div></a>
 
 
         
@@ -262,7 +249,9 @@
     	for(let i=0;i<10;i++)
     	{
     	myicons2.innerHTML += `<div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
-			<div class="card mb-3">
+
+			<a href="#" style="color:black">
+			<div class="card mb-3 flip bg-card">
 			  <div class="row no-gutters">
 			    <div class="col-md-4 pl-2 py-3">
 			      <img src="icons/${i+1}.jpg" class="card-img ml-1" alt="...">
@@ -274,6 +263,7 @@
 			    </div>
 			  </div>
 			</div>
+			</a>
 		</div>`
 	}
     </script>

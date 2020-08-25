@@ -193,18 +193,48 @@
 /*myicons*/
 .myicons .row .col .card
 {
-	border:1px solid black
+	border:1px solid black;
+	animation-name:wap;
+	animation-duration:5s;
+	background-color:#fff;
+	animation-iteration-count:infinite;
+
 }
+
+
+@keyframes wap
+{
+	0%{background:#32a891;}
+	25%{background:#0e8ee3;}
+	50%{background:#0b6dde;}
+	75%{background:#0a47a3;}
+	100%{background:#1a9ec9;}
+}
+
 .myicons .row .col img
 {
 	/*width: 10vw;*/
 	height: 10vh;
 }
-
-
-
-
-
+.myicons .row .col img:hover
+{
+	border-radius: 15px;
+	transition: .1s;
+}
+.myicons .row .col .card:hover
+{
+	background-color: #1273b8;
+	color: #fff;
+	padding: 5px;
+	transition: .3s;
+	border-radius: 50px;
+	/*transform: rotate(-7deg);*/
+	
+}
+.myicons .row .col .card .card-body
+{
+	transform: rotate(-4deg); 	
+}
 
 @media(max-width:990px)
 {
