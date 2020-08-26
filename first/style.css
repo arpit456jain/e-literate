@@ -111,15 +111,12 @@
 .mycards ul
 {
 	list-style: none;
-	padding-left: 2rem;
+	padding-left: 1.5rem;
 }
-/*.mycards li:nth-child(2n)
-{
-	background-color: blue;
-}*/
+
 .mycards li:hover
 {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	transition: .5s;
 }
 .mycards li i
@@ -130,7 +127,7 @@
 	color: green;
 }
 
-.mycards h3:hover 
+.mycards h3:hover ,.mycards h5:hover
 {
 	background-color: blue;
 	border-radius: 30px;
@@ -282,7 +279,28 @@
 	/*transform: rotate(-7deg);*/	
 }
 
+@media(max-width:1100px)
+{
+	body
+	{
+		/*background-color: pink;*/
+	}
+	.mycards ul
+	{
+		list-style: none;
+		padding-left: 5px;
+	}
+	.mycards li
+	{
+		font-size: .9rem;
+	}
 
+	.mycards li:hover
+	{
+		font-size: 1.1rem;
+		transition: .5s;
+	}
+}
 @media(max-width:990px)
 {
 	body
@@ -326,21 +344,19 @@
 	}
 	
 	.myheading span
-{
-	 
-	
+	{
 	 font-size: 1.5rem;
 	 font-weight: 700;
 	 padding: 20px 50px;
-}
-.myheading span:hover 
+	}
+	.myheading span:hover 
 	{
 		padding: 20px 100px;
 		transition: .5s;
 		font-size: 1.8rem;
 		font-weight: 800;
 	}
-.myheading h4:hover,.myheading h5:hover,.myheading h3:hover
+	.myheading h4:hover,.myheading h5:hover,.myheading h3:hover
 	{
 		font-size: 2rem;
 		transition: .5s;
@@ -356,7 +372,14 @@
 	{
 		margin: 0 auto;
 	}
-
+	.mycards ul
+	{
+		padding-left:0;
+	}
+	.mycards .card-body
+	{
+		padding:10px;
+	}
 
 }
 
