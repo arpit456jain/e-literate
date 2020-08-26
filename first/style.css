@@ -14,12 +14,17 @@
 	padding: 20px 5px;
 }
 
+.navbar .collapse a
+{
+	color:#fff;
+	/*background:#093375; */
+	padding: 5px 5px;
+}
 .navbar .collapse a:hover
 {
 	color:#fff;
 	background:#093375; 
-	padding: 5px 10px;
-	transition: .8s;
+	transition: .4s;
 	border-radius: 20px;
 }
 .navbar-brand2
