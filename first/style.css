@@ -1,9 +1,9 @@
+/*navbar section*/
 .navbar .collapse a
 {
 	color: #fff;
 	padding: 2px 5px;
 }
-
 #baricon
 {
 	font-size: 2rem;
@@ -32,6 +32,8 @@
 	font-size: 2.4rem;
 	font-family:sans-serif;
 }
+
+/*main content inside header section*/
 .main h1
 {
 	font-size: 5rem;
@@ -50,7 +52,7 @@
 }
 
 
-
+/*for register button*/
 .reg
 {
 	/*background-color:#093375;*/
@@ -59,6 +61,8 @@
 	border-radius: 30px;
 	padding: 2px 50px;
 }
+
+/*crousel*/
 #carouselExampleIndicators
 {
 	height: 80vh;
@@ -69,6 +73,7 @@
 	height: 80vh;
 	border-radius: 30px;
 }
+
 
 .myheading span
 {
@@ -93,6 +98,9 @@
 	font-size: 2rem;
 	transition: .5s;
 }
+
+
+/*cards section*/
 .mycards h1
 {
 	font-size: 2rem;
@@ -161,33 +169,34 @@
 {
 	font-size: 1.8rem;
 }
+
+
+/*footer section*/
 .myfooter .container ul , .myfooter2 ul
 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 0
 }
 .myfooter .container ul li
 {
 	list-style: none;
-	margin-left: 20px;
-	font-size: 2.5rem;
-	padding: 10px;
+	margin:7px;
+	font-size: 2.4rem;
+	padding: 7px;
 }
 .myfooter2 ul li
 {
 	list-style: none;
-	margin-left: 20px;
+	margin:8px;
 	font-size: 1.1rem;
 	padding: 10px;
 }
-.bg
-{
-	background-color:skyblue;
-}
+
 .myfooter2 ul li a
 {
-	color: black;
+	color: #fff;
 	text-decoration-line: none;
 }
 .myfooter .container ul li:nth-child(1) a
