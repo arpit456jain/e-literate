@@ -108,9 +108,10 @@
 	padding: 2px 0px 2px 0px;
 	transition: .6s;
 }
-.mycards li
+.mycards ul
 {
 	list-style: none;
+	padding-left: 2rem;
 }
 /*.mycards li:nth-child(2n)
 {
@@ -314,6 +315,11 @@
 	{
 		font-size: 2rem;
 	}
+	.mycards ul
+	{
+		list-style: none;
+		padding-left: 1.2rem;
+	}
 	#baricon
 	{
 		font-size: 1.7rem;
@@ -350,6 +356,7 @@
 	{
 		margin: 0 auto;
 	}
+
 
 }
 
@@ -444,5 +451,10 @@
 		font-size: 1.3rem;
 		margin: 2px;
 		padding: 3px;
+	}
+	.mycards ul
+	{
+		list-style: none;
+		padding-left:.2rem;
 	}
 }
