@@ -92,7 +92,7 @@
 {
 	font-size: 2rem;
 }
-.mycards .card ,.mycards img
+	.mycards .card ,.mycards img
 {
 	border-radius: 20px;
 }
@@ -100,6 +100,7 @@
 {
 	box-shadow: 4px 4px 3px 3px #04275e;
 	transition: .6s;
+	background-color: #1a9ec9;
 }
 .mycards .col:hover 
 {
@@ -107,7 +108,56 @@
 	padding: 2px 0px 2px 0px;
 	transition: .6s;
 }
+.mycards li
+{
+	list-style: none;
+}
+/*.mycards li:nth-child(2n)
+{
+	background-color: blue;
+}*/
+.mycards li:hover
+{
+	font-size: 1.3rem;
+	transition: .5s;
+}
+.mycards li i
+{
+	font-size: 1.5rem;
+	margin: 2px;
+	padding: 3px;
+	color: green;
+}
 
+.mycards h3:hover 
+{
+	background-color: blue;
+	border-radius: 30px;
+	padding: 10px 30px;
+	transition: 1.1s;
+	color: #fff;
+}
+.mycards  .mytitle i
+{
+	font-size: 4rem;
+	color: black;
+}
+.mycards  .mytitle i:hover
+{
+	font-size: 5rem;
+	transition: .5s;
+	color: #fff;
+}
+.mycards .fa-inr
+{
+	margin: 2px;
+	padding: 2px;
+	font-size: 1.8rem;
+}
+.mycards .fa-inr:hover
+{
+	font-size: 1.8rem;
+}
 .myfooter .container ul , .myfooter2 ul
 {
 	display: flex;
@@ -384,5 +434,15 @@
 		height: 8vh;
 		margin: 0;
 		padding: 0;
+	}
+	.mycards li:hover
+	{
+		font-size: 1.2rem;
+	}
+	.mycards li i
+	{
+		font-size: 1.3rem;
+		margin: 2px;
+		padding: 3px;
 	}
 }
