@@ -1,9 +1,5 @@
 /*navbar section*/
-.navbar .collapse a
-{
-	color: #fff;
-	padding: 2px 5px;
-}
+
 #baricon
 {
 	font-size: 2rem;
@@ -14,7 +10,7 @@
 	padding: 20px 5px;
 }
 
-.navbar .collapse a
+.navbar .collapse a , .navbar .dropdown
 {
 	color:#fff;
 	/*background:#093375; */
@@ -414,6 +410,10 @@
 		padding: 0px ;
 		margin: 2px;
 	}
+	.dropdown-menu
+	{
+		text-align: center;
+	}
 	.btn2:hover
 	{
 		
@@ -461,7 +461,7 @@
 	.main h1:hover 
 	{
 		font-size: 3.5rem;
-		color: red;
+		/*color: red;*/
 	}
 	.main h5:hover
 	{
