@@ -1,0 +1,42 @@
+.gate .card
+      {
+        border-radius: 10px;
+        margin-bottom: 3px;
+      }
+      .gate .card-body
+      {
+        background-color: #90d1f5;
+      }
+      .gate .btn 
+      {
+         color: black;
+      }
+      .gate .card-header:hover
+      {
+        /*background-color: #b1c7c7;*/
+      }
+      .gate
+      {
+        background-color:#1083c2;
+        border-radius: 20px;
+      }
+      
+      .gate .btn:hover
+      {
+        font-size: 1.2rem;
+        transition: .6s;
+        color: blue;
+        font-weight: 600;
+        text-decoration: none;
+       /* background-color: #a5dee6;*/
+      }
+      .gate p , ul
+      {
+
+        /*color: #fffaf0;*/
+        color: black;
+      }
+      @media screen and (max-width: 600px;)
+      {
+       
+      }
