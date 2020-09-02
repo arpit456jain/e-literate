@@ -27,6 +27,11 @@
         background-color:orange;
         font-weight: 600;
       }
+      .myframe
+      {
+      	width:100% ;
+      	height:60vh;
+      }
     </style>
 
   </head>
@@ -145,9 +150,7 @@
 				        </button>
 				      </div>
 				      <div class="modal-body">
-				      <div class="embed-responsive embed-responsive-16by9">
-					  <iframe class="embed-responsive-item" src="https://drive.google.com/embeddedfolderview?id=`+ `${url_for_category[0]}`+ `"></iframe>
-					</div>
+				      	 <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=`+ `${url_for_category[0]}`+ `"></iframe>
 				      </div>
 				    </div>
 				  </div>
