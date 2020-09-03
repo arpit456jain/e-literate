@@ -12,7 +12,39 @@
     <title>Gate</title>
     <link rel="stylesheet" type="text/css" href="exams.css">
     <style>
-      
+      .myheading .btn1
+{
+	 font-family: 'Quicksand', sans-serif; 
+	 text-align:center;
+	 background:#093375;
+	 font-size: 1.7rem;
+	 font-weight: 700;
+	 color: #fff;
+	 padding: 10px 20px;
+	 border-radius: 10px;
+}
+.myheading .btn1:hover 
+{
+	 font-family: 'Quicksand', sans-serif; 
+	 text-align:center;
+	 background:#093375;
+	 font-size: 1.7rem;
+	 font-weight: 700;
+	 color: #fff;
+	 padding: 10px 20px;
+	 border-radius: 40px;
+}
+
+.dropdown-item
+{
+	font-weight: 500;
+}
+.dropdown-item:hover
+{
+	background-color:blue;
+	color: #fff
+}
+	
     </style>
   </head>
 <body>
@@ -47,27 +79,42 @@
       <li class="nav-item">
           <a class="navbar-brand" href="study material.html">STUDY MATERIAL</a>
         </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="/">ABOUT US</a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand" href="/">OUR TEAM</a>
-        </li>
-
-          <li class="nav-item">
-          <a class="navbar-brand" href="/">CONTACT US</a>
-        </li>
-   <li class="nav-item">
-            <a href="/" class="btn reg navbar-brand2"> REGISTER</a>
+	      <li class="nav-item">
+	        <a class="navbar-brand" href="#">ABOUT US</a>
+	      </li>
+	     <li class="nav-item loginbutton">
+          <a href="#" class="btn btn-primary">login</a>
+          <a href="#" class="btn  btn-primary">Sign Up</a>
+          <a href="#" class="btn reg navbar-brand2"> REGISTER</a>
         </li>
       </ul>
   </nav>
+<!-- 
+<div class="container mt-3 py-3 text-center">	
+<a href="gate-EE.html" class="btn btn-primary btn-lg">Gate-EE</a>
+<a href="#" class="btn btn-primary btn-lg">Gate-CSE</a>
+<a href="#" class="btn btn-primary btn-lg">Gate-ME</a>
+<a href="#" class="btn btn-primary btn-lg">Gate-ECE</a>
+<a href="#" class="btn btn-primary btn-lg">Gate-CHE</a>
+<a href="#" class="btn btn-primary btn-lg">Gate-CE</a>
+</div> -->
 
-
-
-<div class="container-fluid my-4  pt-4 px-1 col-lg-10 col-12 gate myheading ">
+<div class="container-fluid   my-3 pt-3 px-1 col-lg-10 col-12 gate myheading">
   <div class="mx-auto text-center">
-  <span class="mx-auto text-center"> <u>GATE </u></span>
+  		
+  <!-- Example split danger button -->
+	<div class="btn-group">
+	  <button class="mx-auto text-center btn btn1 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> GATE </button> 
+	  </button>
+	  <div class="dropdown-menu text-center">
+	    <a class="dropdown-item" href="gate-EE.html">Gate-EE</a>
+	    <a class="dropdown-item" href="#">Gate-CSE</a>
+	    <a class="dropdown-item" href="#">Gate-ME</a>
+	    <a class="dropdown-item" href="#">Gate-ECE</a>
+	    <a class="dropdown-item" href="#">Gate-CHE</a>
+	    <a class="dropdown-item" href="#">Gate-CE</a>
+	  </div>
+	</div>
   </div>
     <div class="accordion  mt-3 py-2" id="accordionExample">
       <div class="card">
