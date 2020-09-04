@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Gate-CSE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="exams.css">
+    <style>
+    	body
+    	{
+    		background-color: skyblue;
+    	}
+ .myheading .btn1
+{
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+.myheading .btn1:hover 
+{
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 40px;
+}
+.dropdown-menu
+{
+  /*background-color: red;*/
+  width: 100%;
+}
+.dropdown-item
+{
+  font-weight: 500;
+}
+.dropdown-item:hover
+{
+  background-color:blue;
+  color: #fff
+}
+    @media screen and (max-width: 550px)
+    {
+    	body
+    	{
+    		background-color: skyblue;
+    	}
+    	.card-header ,.btn-link ,.card-body
+    	{
+    		padding-left:8px;
+    		padding-right:8px;
+    	}
+    	
+    }
+    </style>
+  </head>
+  <body>
+
+
+<!-- navbar  -->
+  <nav class="navbar navbar-expand-lg mylogo navbar-light " style="background-color: #17202A;color: #fff;">
+    <a href="index.html"><img src="logo.png"></a>
+     <!-- <a class="navbar-brand2 ml-3" href="/">E-LITERATE</a> -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#b9bffa; color: #b9bffa;">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto text-center">
+      <li class="nav-item">
+             <a class="navbar-brand"  href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="/">PROGRAMS</a>
+          </li>
+          <li class="nav-item dropdown" style="padding: 0;color: #fff;">
+            <a class="navbar-brand dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              EXAMS
+            </a>
+            <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown" style="background-color: #17202A;">
+              <a class="dropdown-item" href="gate.html">Gate</a>
+              <a class="dropdown-item" href="jeeMains.html">JEE Mains</a>
+              <a class="dropdown-item" href="neet.html">NEET</a>
+              <a class="dropdown-item" href="#">CET</a>
+            </div>
+      </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="study material.html">STUDY MATERIAL</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="#">ABOUT US</a>
+        </li>
+       <li class="nav-item loginbutton">
+          <a href="#" class="btn btn-primary">login</a>
+          <a href="#" class="btn  btn-primary">Sign Up</a>
+          <!-- <a href="#" class="btn reg navbar-brand2"> REGISTER</a> -->
+        </li>
+      </ul>
+  </nav>
+
+    <div class="container-fluid  py-3 px-0 myheading">
+      <div class="container px-2 ">
+      <!-- <h1 class="text-center">GATE-Computer Science Engineering</h1> -->
+      <div class="mx-auto text-center">
+          
+          <!-- Example split danger button -->
+          <div class="btn-group">
+            <button class="mx-auto text-center btn btn1 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> GATE-Computer Science Engineering </button> 
+            </button>
+            <div class="dropdown-menu text-center">
+              <a class="dropdown-item" href="gate-EE.html">Gate-EE</a>
+              <a class="dropdown-item" href="gate-CSE.html">Gate-CSE</a>
+              <a class="dropdown-item" href="#">Gate-ME</a>
+              <a class="dropdown-item" href="#">Gate-ECE</a>
+              <a class="dropdown-item" href="#">Gate-CHE</a>
+              <a class="dropdown-item" href="#">Gate-CE</a>
+            </div>
+          </div>
+       </div>
+      <p>
+        After the candidate completes his graduation in computer science and engineering, he can appear for GATE. GATE is an examination that primarily tests the comprehensive understanding of candidates in various undergraduate subjects of engineering and science for admission into the Master’s Program of institutes as well as jobs at Public Sector Companies. The syllabus of GATE for computer science and engineering mainly includes the following:
+      </p>
+    
+          <div class="accordion  mt-3 py-2" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Section 1: Engineering Mathematics 
+            </button>
+          </h2>
+        </div>
+
+      <div id="collapseOne" class="collapse hide  " aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>
+              Discrete Mathematics: Propositional and first order logic. Sets, relations, functions, partial orders and lattices. Groups. Graphs: connectivity, matching, coloring. Combinatorics: counting, recurrence relations, generating functions. Linear Algebra: Matrices, determinants, system of linear equations, eigenvalues and eigenvectors, LU decomposition. Calculus: Limits, continuity and differentiability. Maxima and minima. Mean value theorem. Integration. Probability: Random variables. Uniform, normal, exponential, Poisson and binomial distributions. Mean, median, mode and standard deviation. Conditional probability and Bayes theorem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             Section 2: Digital Logic
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Boolean algebra. Combinational and sequential circuits. Minimization. Number representations and computer arithmetic (fixed and floating point).
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Section 3: Computer Organization and Architecture
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            Machine instructions and addressing modes. ALU, data – path and control unit. Instruction pipelining. Memory hierarchy: cache, main memory and secondary storage; I/O interface (interrupt and DMA mode).
+          </div>
+        </div>
+      </div>
+
+        <div class="card">
+          <div class="card-header" id="headingfour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                Section 4: Programming and Data Structures
+              </button>
+            </h2>
+          </div>
+          <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+            <div class="card-body">
+              Programming in C. Recursion. Arrays, stacks, queues, linked lists, trees, binary search trees, binary heaps, graphs.       
+            </div>
+          </div>
+        </div>
+
+          <div class="card">
+            <div class="card-header" id="headingfive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  Section 5: Algorithms
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+              <div class="card-body">
+                  Searching, sorting, hashing. Asymptotic worst - case time and space complexity. Algorithm design techniques: greedy, dynamic programming and divide and conquer. Graph search, minimum spanning trees, and shortest paths.
+              </div>
+            </div>
+          </div>
+
+            <div class="card">
+              <div class="card-header" id="headingsix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                    Section 6: Theory of Computation
+                  </button>
+                </h2>
+              </div>
+              <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                <div class="card-body">
+                  Regular expressions and finite automata. Context-free grammars and push-down automata. Regular and context-free languages, pumping lemma. Turing machines and undecidability.
+                </div>
+              </div>
+            </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                      Section 7: Compiler Design
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+                  <div class="card-body">
+                   Lexical analysis, parsing, syntax-directed translation. Runtime environments. Intermediate code generation.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingeight">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                      Section 8: Operating System
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Processes, threads, inter – process communication, concurrency and synchronization. Deadlock. CPU scheduling. Memory management and virtual memory. File systems.
+                  </div>
+                </div>
+              </div>
+
+
+            <div class="card">
+                <div class="card-header" id="headingnine">
+                  <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                      Section 9: Databases
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapsenine" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    ER – model. Relational model: relational algebra, tuple calculus, SQL. Integrity constraints, normal forms. File organization, indexing (e.g., B and B+ trees). Transactions and concurrency control.
+                  </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingten">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                      Section 10: Computer Networks
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseten" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                   Concept of layering. LAN technologies (Ethernet). Flow and error control techniques, switching. IPv4/IPv6, routers and routing algorithms (distance vector, link state). TCP/UDP and sockets, congestion control. Application layer protocols (DNS, SMTP, POP, FTP, HTTP). Basics of Wi-Fi. Network security: authentication, basics of public key and private key cryptography, digital signatures and certificates, firewalls.
+                  </div>
+                </div>
+            </div>
+
+         </div> 
+         <!-- acrodian end       -->
+      
+      <p class="mt-3">
+        Mentioned above is the outlined syllabus for GATE. There are minor changes being introduced frequently in the syllabus as well as the nature and weightage of questions.
+      </p>
+      <p>
+        After qualifying GATE, the candidate can go for further studies like post-graduation and Ph. D. from top tier institutes including IITs and NITs and receive stipend and fellowships based on the performance in the respective course or can apply for job in a PSU. Many PSUs (Public Sector Undertakings) prefer candidates from electrical engineering background among some other selected branches owing to the nature of services they provide and the nature of products they manufacture or deal with.
+      </p>
+      <p>
+        Some such PSUs that prefer candidates from electrical engineering as their major field of study include:
+      </p>
+      <ul>
+        <li> <b>BIS </b> <br>
+          <p>
+            Bureau of Indian Standards (BIS) shortlists candidates for the interview on the basis of GATE scores. The shortlisted candidates need to appear for the personal interview after completion of the document verification process. The final list of selected candidates is prepared on the basis of merit determined by the aggregate marks obtained by giving 85% weightage to GATE scores and the remaining 15% weightage to marks secured in the interview. The recruitments are conducted for the post of Scientist Grade ‘B’.
+          </p>
+       </li>
+          <li> <b>KIOCL Limited</b> <br>
+            <p>
+              Like many other PSUs, the recruitment process takes place in two stages. The candidates are shortlisted for interview on the basis of their GATE scores. Candidates who qualify the interview are recruited as Graduate Engineer Trainees (GET).  
+            </p>
+          </li>
+          <li> <b>KIOCL Limited</b> <br>
+            The applications are open during July. The candidates are shortlisted on the basis of their GATE scores and are called for interview. Selected candidates need to undergo a medical test and must fulfil the required fitness requirements for recruitment.
+          </li>
+          <li> <b>IOCL</b> <br>
+            <p>
+              The applications are open from April to June. Recruitments are made on the basis of GATE scores and performance in the interview. Recruitments are conducted for various posts depending on qualification. Graduate engineers are recruited as Engineers/Officers, Post – graduate engineers are recruited as Research Officers in Research and Development Center.  
+            </p>
+          </li>
+          <li>
+            <b>DRDO</b> <br>
+            <p>
+              Defense Research and Development Organization (DRDO) recruits graduate engineer candidates with computer science as their major discipline. The applications are open during June-July. DRDO conducts a three – step process for recruitment of candidates on the basis of their GATE scores for the post of Scientist Grade ‘B’. The steps include shortlisting through GATE scores, descriptive examination and personal interview.
+            </p>
+          </li>
+          <li>
+            <b>BARC </b> <br>
+            <p>
+              Candidates with valid GATE scores can apply for programs as per the specified eligibility. Non – GATE candidates can also apply for the programs by appearing for an online test. The candidates are shortlisted on the basis of their performance in GATE or the BARC online test for the interview. Thereafter, the selected candidates are called for a final interview in Mumbai. Candidates who clear the interview are selected as Scientific Officers.  
+            </p>
+          </li>
+          <li>
+            <b>ECIL</b> <br>
+            <p>
+              Electronics Corporation of India (ECIL) conducts recruitment for the post of Graduate Engineer Trainees in Mechanical, Electronics and Computer Science Engineering. ECIL Recruitment through GATE offers jobs to engineers with post-training placements at the Headquarters in Hyderabad or in any of Zonal/Branch/Site Offices located across India. The areas include Design & Development, Projects, Marketing, Production, QA and Field of Engineering. GATE scores are taken into consideration while shortlisting the candidates for the personal interview. Final selection is done based on the GATE scores and interview scores of the candidates.
+            </p>
+          </li>
+          <li>
+            <b>PSPCL</b> <br>
+            <p>
+              The Punjab government owned company responsible for power generation and distribution in the state, recruits Assistant Engineers (On Training) on the basis of Graduate Aptitude Test in Engineering (GATE) scores. Another requirement that the candidate must have passed Punjabi of at least Matriculation level or its equivalent up to the date of document checking.
+            </p>
+          </li>
+          <li> 
+            <b>BBNL</b> <br>
+            <p>
+              BBNL conducts recruitment through GATE score for candidates who have appeared for any of the papers from the following: Electronics and Communication (EC), Computer Science and Information Technology (CS) and Electrical Engineering (EE) Paper of GATE. It is mandatory for the candidates to hold 4 years of B.Tech degree (graduate engineers) for the position of Executive Trainees. 
+            </p>  
+          </li>
+      </ul>
+      <p>
+        Some PSUs recruit candidates directly on the basis of their GATE scores with some specific required cutoff or percentile while some shortlist the candidates on the basis of their GATE scores for further stages of assessment that may include group discussion, descriptive examination or personal interview or all of these varying from company to company. Every PSU releases its own notification for the job.
+      </p>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- footer -->
+<!-- for contact us container -->
+<div class="container-fluid text-center myfooter  py-3" style="background-color: #17202A;color: #fff">
+  <h1>Contact Us</h1>
+  <hr class='hr'>
+          <div class="container mx-auto">
+                <h2>E-Literate</h2>
+                    <address> 0259-N HUMAYUNPUR NORTH ,GORAKHPUR 273001 <br>Uttar Pradesh <br>teameliterate@eliterate.in </address>
+                <ul class="mx-auto" >
+            <li>
+              <a href="https://www.instagram.com/eliterate.in/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></a></i>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></a></i>
+            </li>
+            <li>
+              <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></a></i>
+            </li>
+          </ul>
+    </div>
+
+     <div class="container-fluid myfooter2 text-center" style="background-color: #17202A;color: #fff;">
+           <p>  &copy; Copyright 2020 E-literate. All Right Reserved </p>
+           <ul>
+               <li><a  href="#" class="btn btn2">privacy </a></li>
+               <li><a  href="#" class="btn btn2">T&C</a></li>
+               <li><a  href="#" class="btn btn2">services</a></li>
+           </ul>
+</div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -17,6 +17,42 @@
     	{
     		background-color: skyblue;
     	}
+      .myheading .btn-group .btn1
+    {
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 10px;
+  }
+.myheading .btn1:hover 
+{
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 40px;
+}
+.dropdown-menu
+{
+  /*background-color: red;*/
+  width: 100%;
+}
+.dropdown-item
+{
+  font-weight: 500;
+}
+.dropdown-item:hover
+{
+  background-color:blue;
+  color: #fff
+}
     @media screen and (max-width: 550px)
     {
     	body
@@ -70,14 +106,31 @@
        <li class="nav-item loginbutton">
           <a href="#" class="btn btn-primary">login</a>
           <a href="#" class="btn  btn-primary">Sign Up</a>
-          <a href="#" class="btn reg navbar-brand2"> REGISTER</a>
+          <!-- <a href="#" class="btn reg navbar-brand2"> REGISTER</a> -->
         </li>
       </ul>
   </nav>
 
-    <div class="container-fluid  py-3 px-0">
+    <div class="container-fluid  py-3 px-0 myheading">
       <div class="container px-2 ">
-      <h1 class="text-center">GATE- Electrical Engineering</h1>
+      <!-- <h1 class="text-center">GATE- Electrical Engineering</h1> -->
+      
+        <div class="mx-auto text-center">
+          
+          <!-- Example split danger button -->
+          <div class="btn-group">
+            <button class="mx-auto text-center btn btn1 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GATE-Electrical Engineering </button> 
+            </button>
+            <div class="dropdown-menu text-center">
+              <a class="dropdown-item" href="gate-EE.html">Gate-EE</a>
+              <a class="dropdown-item" href="gate-CSE.html">Gate-CSE</a>
+              <a class="dropdown-item" href="#">Gate-ME</a>
+              <a class="dropdown-item" href="#">Gate-ECE</a>
+              <a class="dropdown-item" href="#">Gate-CHE</a>
+              <a class="dropdown-item" href="#">Gate-CE</a>
+            </div>
+          </div>
+        </div>
       <p>
         After the candidate completes his graduation in electrical engineering, he can appear for exams such as GATE and ESE. GATE is an examination that primarily tests the comprehensive understanding of candidates in various undergraduate subjects of engineering and science for admission into the Master’s Program of institutes as well as jobs at Public Sector Companies. The syllabus of GATE for electrical engineering mainly includes the following:
       </p>
