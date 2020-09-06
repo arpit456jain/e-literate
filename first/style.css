@@ -1,13 +1,12 @@
 /*navbar section*/
-
 #baricon
 {
 	font-size: 2rem;
 }
 .navbar a img
 {
-	width:16vw; 
-	padding: 2px 2px;
+	width:15vw; 
+	padding: 0px 2px;
 }
 
 .navbar .collapse a
@@ -23,6 +22,11 @@
 	background:#093375; 
 	transition: .4s;
 	border-radius: 20px;
+}
+.navbar .dropdown-menu
+{
+	background-color:#1083c2;
+	text-align: center;
 }
 .navbar-brand2
 {
@@ -407,7 +411,7 @@
 	}
 	.navbar .collapse a
 	{
-		font-size:1rem;
+		font-size:1.3rem;
 		padding: 0px 10px;
 	}
 	.myfooter2 ul li
@@ -499,5 +503,10 @@
 	{
 		list-style: none;
 		padding-left:5px;
+	}
+	.navbar .dropdown-menu
+	{
+	background-color:#1083c2;
+	text-align: left;
 	}
 }
