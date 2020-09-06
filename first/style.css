@@ -10,12 +10,13 @@
 	padding: 2px 2px;
 }
 
-.navbar .collapse a , .navbar .dropdown
+.navbar .collapse a
 {
 	color:#fff;
-	/*background:#093375; */
+	/*background:red; */
 	padding: 5px 5px;
 }
+
 .navbar .collapse a:hover
 {
 	color:#fff;
@@ -404,6 +405,11 @@
 		width:40vw; 
 		padding: 0px 0px;
 	}
+	.navbar .collapse a
+	{
+		font-size:1rem;
+		padding: 0px 10px;
+	}
 	.myfooter2 ul li
 	{
 		/*border: 2px solid red;*/
@@ -412,7 +418,7 @@
 	}
 	.dropdown-menu
 	{
-		text-align: center;
+		/*text-align: center;*/
 	}
 	.btn2:hover
 	{
