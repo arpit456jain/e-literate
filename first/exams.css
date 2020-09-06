@@ -1,5 +1,5 @@
 
-.gate .card
+  .gate .card
       {
         border-radius: 10px;
         margin-bottom: 3px;
@@ -37,7 +37,33 @@
         /*color: #fffaf0;*/
         color: black;
       }
-      @media screen and (max-width: 600px;)
+      .gate-branch
       {
-       
+        font-size: 2rem;
+        margin: 10px 0px;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      p:hover
+      {
+        font-weight: 600;
+        color: #fff;
+        font-size: 1.1rem;
+        transition: .7s
+      }
+      @media screen and (max-width:750px)
+      {
+        .gate-branch
+      {
+        font-size: 1.5rem;
+      }
+      }
+
+
+      @media screen and (max-width:450px)
+      {
+        .gate-branch
+      {
+        font-size: 1rem;
+      }
       }

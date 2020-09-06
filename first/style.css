@@ -15,7 +15,10 @@
 	/*background:red; */
 	padding: 5px 5px;
 }
-
+.btn-primary
+{
+	font-weight: 700;
+}
 .navbar .collapse a:hover
 {
 	color:#fff;
