@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Study Material</title>
     <link rel="stylesheet" type="text/css" href="exams.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
     <style>
       .downloadbtn
       {
@@ -57,17 +58,33 @@
           <li class="nav-item">
             <a class="navbar-brand" href="/">PROGRAMS</a>
           </li>
-          <li class="nav-item dropdown" style="padding: 0;color: #fff;">
-            <a class="navbar-brand dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              EXAMS
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="gate.html">Gate</a>
-              <a class="dropdown-item" href="jeeMains.html">JEE Mains</a>
-              <a class="dropdown-item" href="neet.html">NEET</a>
-              <a class="dropdown-item" href="#">CET</a>
-            </div>
-      </li>
+          <li class="nav-item dropdown" >
+                    <a class="navbar-brand dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        EXAMS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="neet.html">NEET </a></li>
+                        <li><a class="dropdown-item" href="jeeMains.html">JEE Mains</a></li>
+                        <li><a class="dropdown-item" href="cet.html">CET </a></li>
+                        <li><a class="dropdown-item" href="gate.html">GATE</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle mygate" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" style="background-color: #1083c2">
+                                    Gate
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li><a class="dropdown-item" href="gate-CSE.html">GATE-CSE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CHE.html">GATE-CHE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CE.html">GATE-CE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ME.html">GATE-ME</a></li>
+                                    <li><a class="dropdown-item" href="gate-EE.html">GATE-EE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ECE.html">GATE-ECE</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+       </li>
       <li class="nav-item">
           <a class="navbar-brand" href="study material.html">STUDY MATERIAL</a>
         </li>
@@ -512,6 +529,14 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-       
+      <script src="js/bootnavbar.js" ></script>
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar({
+                //option
+                //animation: false
+            });
+        })
+    </script> 
   </body>
 </html>
