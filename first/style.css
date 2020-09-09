@@ -13,7 +13,7 @@
 {
 	color:#fff;
 	/*background:red; */
-	padding: 5px 5px;
+	padding:2px;
 }
 
 .btn-primary
@@ -415,8 +415,8 @@
 	}
 	.navbar .collapse a
 	{
-		font-size:1.3rem;
-		padding: 0px 10px;
+		font-size:1.1rem;
+		padding: 0px 5px;
 	}
 	.myfooter2 ul li
 	{
