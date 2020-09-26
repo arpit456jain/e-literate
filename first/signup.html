@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Gate</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="exams.css">
     <link rel="stylesheet" href="css/bootnavbar.css">
     <style>
@@ -136,9 +136,33 @@
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="">
           </div>
           <div class="form-group">
-            <label for="exampleInputEmail1">Phone Number</label>
-            <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required="">
-          </div>
+          <label for="exampleFormControlSelect1">Gender</label>
+          <select type="gender" class="form-control" id="gender" name='gender' placeholder="gender" required >
+            <option>Male</option>
+            <option>Female</option>
+               <option>Others</option>
+          </select>
+        </div>
+         <div class="form-group">
+          <label for="exampleFormControlSelect1">Courses</label>
+          <select type="cources" class="form-control" id="cources" name='cources' placeholder="cource name" required>
+                 <option>APTITUDE TEST (SUCCESS MANIA) </option>
+                 <option>AKTU (UPTU) MOCK</option>
+                <option>JEE-MAINS - RANK BOOSTER</option>
+               <option>scholarship test (class 10)</option>
+               <option>scholarship test (class 12)</option>
+          </select>
+        </div>
+         <div class="form-group">
+          <label for="name">Phone</label>
+          <input type="tel" class="form-control" id="phone" name='phone' placeholder="Enter Your Phone Number" required>
+        </div>
+
+
+         <div class="form-group">
+          <label for="name">Address</label>
+          <input type="address" class="form-control" id="address" name='address' placeholder="Enter your full address" required>
+        </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" required="">
@@ -147,7 +171,7 @@
             <label for="exampleInputPassword1">Confirm Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" required="">
           </div>
-          <button type="submit" class="btn btn-primary">Sign Up</button>
+          <button type="submit" class="btn btn-success">Sign Up</button>
         </form>
   </div>
 </div>
