@@ -247,13 +247,13 @@
 .myfooter .container address:hover
 {
 	font-size: 1.5rem;
-	color: #093375;
+	/*color: #093375;*/
 	transition: .5s;
 }
 .myfooter .container h2:hover
 {
 	font-size: 2.6rem;
-	color: #093375;
+	/*color: #093375;*/
 	transition: .5s;
 	cursor: pointer;
 }
@@ -261,19 +261,20 @@
 .myicons .row .col .card
 {
 	border:1px solid black;
-	animation-name:wap;
-	animation-duration:5s;
-	background-color:#fff;
-	animation-iteration-count:infinite;
+	/*animation-name:wap;
+	animation-duration:8s;*/
+	/*background-color:#fff;*/
+	background:#62ded9;
+	/*animation-iteration-count:infinite;*/
 
 }
 
 
 @keyframes wap
 {
-	0%{background:#32a891;}
-	25%{background:#0e8ee3;}
-	50%{background:#0b6dde;}
+	0%{background:#63bdc9;}
+	25%{background:#47bac9;}
+	50%{}
 	75%{background:#0a47a3;}
 	100%{background:#1a9ec9;}
 }
