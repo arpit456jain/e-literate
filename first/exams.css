@@ -12,24 +12,14 @@
       {
          color: black;
       }
-      .gate .card-header:hover
-      {
-        /*background-color: #b1c7c7;*/
-      }
+      
       .gate
       {
         background-color:#1083c2;
         border-radius: 20px;
       }
       
-      .gate .btn:hover
-      {
-        font-size: 1.2rem;
-        transition: .6s;
-        color: blue;
-        font-weight: 600;
-        text-decoration: none;
-       /* background-color: #a5dee6;*/
+      
       }
       .gate p , ul
       {
@@ -44,13 +34,7 @@
         font-family: sans-serif;
         font-weight: 600;
       }
-      p:hover
-      {
-        font-weight: 600;
-        color: #fff;
-        font-size: 1.1rem;
-        transition: .7s
-      }
+      
       @media screen and (max-width:750px)
       {
         .gate-branch
