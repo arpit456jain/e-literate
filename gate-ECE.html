@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Gate-ECE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="exams.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
+    <style>
+    	body
+    	{
+    		background-color: skyblue;
+    	}
+ .myheading .btn1
+{
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 10px;
+}
+.myheading .btn1:hover 
+{
+   font-family: 'Quicksand', sans-serif; 
+   text-align:center;
+   background:#093375;
+   font-size: 1.7rem;
+   font-weight: 700;
+   color: #fff;
+   padding: 10px 20px;
+   border-radius: 40px;
+}
+.dropdown-menu
+{
+  /*background-color: red;*/
+  width: 100%;
+}
+.dropdown-item
+{
+  font-weight: 500;
+}
+.dropdown-item:hover
+{
+  background-color:blue;
+  color: #fff
+}
+    @media screen and (max-width: 550px)
+    {
+    	body
+    	{
+    		background-color: skyblue;
+    	}
+    	.card-header ,.btn-link ,.card-body
+    	{
+    		padding-left:8px;
+    		padding-right:8px;
+    	}
+    	
+    }
+    </style>
+  </head>
+  <body>
+<!-- <!WHATS APP plugin> -->
+
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+       <div class="elfsight-app-83fd1fcd-6082-4803-a45f-c747320345c0"></div>
+
+<!-- navbar  -->
+  <nav class="navbar navbar-expand-lg mylogo navbar-light " style="background-color: #17202A;color: #fff;">
+    <a href="index.html"><img src="logo.png"></a>
+     <!-- <a class="navbar-brand2 ml-3" href="/">E-LITERATE</a> -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#b9bffa; color: #b9bffa;">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+             <a class="navbar-brand"  href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="programs.html">PROGRAMS</a>
+          </li>
+           <li class="nav-item dropdown" >
+                    <a class="navbar-brand dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        EXAMS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="neet.html">NEET </a></li>
+                        <li><a class="dropdown-item" href="jeeMains.html">JEE Mains</a></li>
+                        <li><a class="dropdown-item" href="cet.html">CET </a></li>
+                        <li><a class="dropdown-item" href="gate.html">GATE</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle mygate" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" style="background-color: #1083c2">
+                                    Gate
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li><a class="dropdown-item" href="gate-CSE.html">GATE-CSE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CHE.html">GATE-CHE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CE.html">GATE-CE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ME.html">GATE-ME</a></li>
+                                    <li><a class="dropdown-item" href="gate-EE.html">GATE-EE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ECE.html">GATE-ECE</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+       </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="study material.html">STUDY MATERIAL</a>
+      </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="prev year papers.html">PREVIOUS YEAR PAPERS</a>
+      </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="our interns.html">OUR INTERNS</a>
+      </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="about us.html">ABOUT US</a>
+        </li>
+          <li class="nav-item loginbutton">
+          <a  class="btn btn-primary" data-toggle="modal" data-target="#login">login</a>
+          <a  class="btn  btn-primary" href="signup.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- login and sign up modal -->
+
+<!-- Modal for login-->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Log in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container-fluid  py-3 px-0 myheading">
+      <div class="container px-2 ">
+      <!-- -->
+      <div class="mx-auto text-center">
+          
+          <!-- Example split danger button -->
+          <div class="btn-group">
+            <button class="mx-auto text-center btn btn1 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> GATE-ECE </button> 
+            </button>
+            <div class="dropdown-menu text-center">
+              <a class="dropdown-item" href="gate-EE.html">Gate-EE</a>
+              <a class="dropdown-item" href="gate-CSE.html">Gate-CSE</a>
+              <a class="dropdown-item" href="gate-ME.html">Gate-ME</a>
+              <a class="dropdown-item" href="gate-ECE.html">Gate-ECE</a>
+              <a class="dropdown-item" href="gate-CHE.html">Gate-CHE</a>
+              <a class="dropdown-item" href="gate-CE.html">Gate-CE</a>
+            </div>
+          </div>
+       </div>
+        <h1 class="text-center gate-branch">GATE-Electronics and Communication Engineering</h1>
+      <p>
+        A candidate who has completed his graduation in electronics and communication engineering, is eligible to appear for GATE. GATE is an examination that primarily tests the comprehensive understanding of candidates in various undergraduate subjects of engineering and science for admission into the Master’s Program of institutes as well as jobs at Public Sector Companies. The syllabus of GATE for electronics and communication engineering mainly includes the following:
+      </p>
+    
+          <div class="accordion  mt-3 py-2" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Section 1: Engineering Mathematics 
+            </button>
+          </h2>
+        </div>
+
+      <div id="collapseOne" class="collapse hide  " aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>
+              Linear Algebra: Vector space, basis, linear dependence and independence, matrix algebra, eigenvalues and Eigen vectors, rank, solution of linear equations – existence and uniqueness. Calculus: Mean value theorems, theorems of integral calculus, evaluation of definite and improper integrals, partial derivatives, maxima and minima, multiple integrals, line, surface and volume integrals, Taylor series. Differential Equations: First order equations (linear and nonlinear), higher order linear differential equations, Cauchy's and Euler's equations, methods of solution using variation of parameters, complementary function and particular integral, partial differential equations, variable separable method, initial and boundary value problems. Vector Analysis: Vectors in plane and space, vector operations, gradient, divergence and curl, Gauss's, Green's and Stoke’s theorems. Complex Analysis: Analytic functions, Cauchy's integral theorem, Cauchy's integral formula; Taylor's and Laurent's series, residue theorem. Numerical Methods: Solution of nonlinear equations, single and multi-step methods for differential equations, convergence criteria. Probability and Statistics: Mean, median, mode and standard deviation; combinatorial probability, probability distribution functions - binomial, Poisson, exponential and normal; Joint and conditional probability; Correlation and regression analysis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             Section 2: Networks, Signals and Systems
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <p>
+              Network solution methods: Nodal and mesh analysis; Network theorems: superposition, Thevenin and Norton’s, maximum power transfer; Wye‐Delta transformation; Steady state sinusoidal analysis using phasors; Time domain analysis of simple linear circuits; Solution of network equations using Laplace transform; Frequency domain analysis of RLC circuits; Linear 2‐port network parameters: driving point and transfer functions; State equations for networks. Continuous-time signals: Fourier series and Fourier transform representations, sampling theorem and applications; Discrete-time signals: discrete-time Fourier transform (DTFT), DFT, FFT, Z-transform, interpolation of discrete-time signals; LTI systems: definition and properties, causality, stability, impulse response, convolution, poles and zeros, parallel and cascade structure, frequency response, group delay, phase delay, digital filter design techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Section 3: Electronic Devices
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+           <p>
+             Energy bands in intrinsic and extrinsic silicon; Carrier transport: diffusion current, drift current, mobility and resistivity; Generation and recombination of carriers; Poisson and continuity equations; P-N junction, Zener diode, BJT, MOS capacitor, MOSFET, LED, photo diode and solar cell; Integrated circuit fabrication process: oxidation, diffusion, ion implantation, photolithography and twin-tub CMOS process.
+           </p>
+          </div>
+        </div>
+      </div>
+
+        <div class="card">
+          <div class="card-header" id="headingfour">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+               Section 4: Analog Circuits
+              </button>
+            </h2>
+          </div>
+          <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+            <div class="card-body">
+             <p>
+               Small signal equivalent circuits of diodes, BJTs and MOSFETs; Simple diode circuits: clipping, clamping and rectifiers; Single-stage BJT and MOSFET amplifiers: biasing, bias stability, mid frequency small signal analysis and frequency response; BJT and MOSFET amplifiers: multi-stage, differential, feedback, power and operational; Simple op-amp circuits; Active filters; Sinusoidal oscillators: criterion for oscillation, single-transistor and op- amp configurations; Function generators, wave-shaping circuits and 555 timers; Voltage reference circuits; Power supplies: ripple removal and regulation.
+             </p>      
+            </div>
+          </div>
+        </div>
+
+          <div class="card">
+            <div class="card-header" id="headingfive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  Section 5: Digital Circuits
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+              <div class="card-body">
+                  <p>
+                    Number systems; Combinatorial circuits: Boolean algebra, minimization of functions using Boolean identities and Karnaugh map, logic gates and their static CMOS implementations, arithmetic circuits, code converters, multiplexers, decoders and PLAs; Sequential circuits: latches and flip‐flops, counters, shift‐registers and finite state machines; Data converters: sample and hold circuits, ADCs and DACs; Semiconductor memories: ROM, SRAM, DRAM; 8-bit microprocessor (8085): architecture, programming, memory and I/O interfacing.
+                  </p>
+              </div>
+            </div>
+          </div>
+
+            <div class="card">
+              <div class="card-header" id="headingsix">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                    Section 6: Control Systems
+                  </button>
+                </h2>
+              </div>
+              <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                <div class="card-body">
+                  <p>
+                    Basic control system components; Feedback principle; Transfer function; Block diagram representation; Signal flow graph; Transient and steady-state analysis of LTI systems; Frequency response; Routh-Hurwitz and Nyquist stability criteria; Bode and root-locus plots; Lag, lead and lag-lead compensation; State variable model and solution of state equation of LTI systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                      Section 7: Communications
+                    </button>
+                  </h2>
+                </div>
+              <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+                  <div class="card-body">
+                   <p>
+                     Random processes: autocorrelation and power spectral density, properties of white noise, filtering of random signals through LTI systems; Analog communications: amplitude modulation and demodulation, angle modulation and demodulation, spectra of AM and FM, super heterodyne receivers, circuits for analog communications; Information theory: entropy, mutual information and channel capacity theorem. Digital communications: PCM, DPCM, digital modulation schemes, amplitude, phase and frequency shift keying (ASK, PSK, FSK), QAM, MAP and ML decoding, matched filter receiver, calculation of bandwidth, SNR and BER for digital modulation; Fundamentals of error correction, Hamming codes; Timing and frequency synchronization, inter-symbol interference and its mitigation; Basics of TDMA, FDMA and CDMA.
+                   </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingeight">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                     Section 8: Electromagnetics
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>
+                      Electrostatics; Maxwell’s equations: differential and integral forms and their interpretation, boundary conditions, wave equation, Poynting vector; Plane waves and properties: reflection and refraction, polarization, phase and group velocity, propagation through various media, skin depth; Transmission lines: equations, characteristic impedance, impedance matching, impedance transformation, Sparameters, Smith chart. Waveguides: modes, boundary conditions, cut-off frequencies, dispersion relations; Antennas: antenna types, radiation pattern, gain and directivity, return loss, antenna arrays; Basics of radar; Light propagation in optical fibers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+         </div> 
+         <!-- acrodian end       -->
+      
+      <p class="mt-3">
+       Mentioned above is the outlined syllabus for GATE. There are minor changes being introduced frequently in the syllabus as well as the nature and weightage of questions.
+      </p>
+      <p>
+        After qualifying GATE, the candidate can go for further studies like post-graduation and Ph. D. from top tier institutes including IITs and NITs and receive stipend and fellowships based on the performance in the respective course or can apply for job in a PSU. Many PSUs (Public Sector Undertakings) prefer candidates from electronics and communication engineering background among some other selected branches owing to the nature of services they provide and the nature of products they manufacture or deal with.
+      </p>
+      <p>
+        Some such PSUs that prefer candidates from electronics and communication engineering as their major field of study include:
+      </p>
+      <ul>
+        <li> <b>BIS </b> <br>
+          <p>
+            Bureau of Indian Standards (BIS) shortlists candidates for the interview on the basis of GATE scores. The shortlisted candidates need to appear for the personal interview after completion of the document verification process. The final list of selected candidates is prepared on the basis of merit determined by the aggregate marks obtained by giving 85% weightage to GATE scores and the remaining 15% weightage to marks secured in the interview. The recruitments are conducted for the post of Scientist Grade ‘B’.
+          </p>
+       </li>
+          <li> <b>KIOCL Limited</b> <br>
+            <p>
+              Like many other PSUs, the recruitment process takes place in two stages. The candidates are shortlisted for interview on the basis of their GATE scores. Candidates who qualify the interview are recruited as Graduate Engineer Trainees (GET).  
+            </p>
+          </li>
+          <li> <b>IOCL</b> <br>
+            <p>
+              The applications are open from April to June. Recruitments are made on the basis of GATE scores and performance in the interview. Recruitments are conducted for various posts depending on qualification. Graduate engineers are recruited as Engineers/Officers, Post – graduate engineers are recruited as Research Officers in Research and Development Center.    
+            </p>
+          </li>
+          <li>
+            <b>DRDO</b> <br>
+            <p>
+              Defense Research and Development Organization (DRDO) recruits graduate engineer candidates with electronics and communication engineering as their major discipline. The applications are open during June-July. DRDO conducts a three – step process for recruitment of candidates on the basis of their GATE scores for the post of Scientist Grade ‘B’. The steps include shortlisting through GATE scores, descriptive examination and personal interview.
+            </p>
+          </li>
+          <li>
+            <b>BARC </b> <br>
+            <p>
+              Candidates with valid GATE scores can apply for programs as per the specified eligibility. Non – GATE candidates can also apply for the programs by appearing for an online test. The candidates are shortlisted on the basis of their performance in GATE or the BARC online test for the interview. Thereafter, the selected candidates are called for a final interview in Mumbai. Candidates who clear the interview are selected as Scientific Officers.   
+            </p>
+          </li>
+          <li>
+            <b>ECIL</b> <br>
+            <p>
+              Electronics Corporation of India (ECIL) conducts recruitment for the post of Graduate Engineer Trainees in Mechanical, Electronics and Computer Science Engineering. ECIL Recruitment through GATE offers jobs to engineers with post-training placements at the Headquarters in Hyderabad or in any of Zonal/Branch/Site Offices located across India. The areas include Design & Development, Projects, Marketing, Production, QA and Field of Engineering. GATE scores are taken into consideration while shortlisting the candidates for the personal interview. Final selection is done based on the GATE scores and interview scores of the candidates.
+            </p>
+          </li>
+          <li> 
+            <b>BBNL</b> <br>
+            <p>
+              BBNL conducts recruitment through GATE score for candidates who have appeared for any of the papers from the following: Electronics and Communication (EC), Computer Science and Information Technology (CS) and Electrical Engineering (EE) Paper of GATE. It is mandatory for the candidates to hold 4 years of B.Tech degree (graduate engineers) for the position of Executive Trainees.  
+            </p>  
+          </li>
+          <li>
+            <b>NTPC Limited</b><br>
+            <p>
+              The applications are open during June – July. The candidates are shortlisted on the basis of GATE scores. Thereafter, the shortlisted candidates need to qualify a group discussion that is followed by personal interview. The final merit list is prepared on the basis of the candidate’s performance in all stages of the recruitment process.Selected candidates are required to undergo a medical test conducted by a board of medical officers of NTPC.
+            </p>
+          </li>
+          <li>
+            <b>NPCIL</b> <br>
+            <p>
+              Nuclear Power Corporation of India Limited (NPCIL) is a PSU under the Department of Atomic Energy (DAE), Government of India. It has postponed the application process for recruitment through GATE for this year. Selection for the interview is on the basis of GATE scores. The performance in interview determines the final selection. The selected candidates have to undergo one-year orientation training in any of Nuclear Training Centers of NPCIL. Trainees who successfully complete their orientation training are recruited as Scientific Officer and posted at one of the units of NPCIL located in different parts of the country. The recruitment is done for the position of Executive Trainees. 
+            </p>
+          </li>
+          <li>
+            <b>ONGC</b> <br>
+            <p>
+              The applications are open from the first week to the fourth week of April. ONGC shortlists the candidates on the basis of their GATE scores for a personal interview for recruitment to various positions. 
+            </p>
+          </li>
+          <li>
+            <b>Haryana Power Utilities</b> <br>
+            <p>
+              Haryana Power Utilities also recruits candidates on the basis of their GATE scores. There is no interview and only GATE scores are considered for selection. The recruitments are held for the post of Assistant Engineer.
+            </p>
+          </li>
+          <li>
+            <b>Airport Authority of India</b> <br>
+            <p>
+              The applications are open during August. The candidates are shortlisted on the basis of their GATE scores. The shortlisted candidates need to report for document verification for final selection. Selected candidates for the post of Junior Executive will be required to execute a surety bond for an amount of Rs 7 lakhs to serve AAI for a period of three years after completion of training.
+            </p>
+          </li>
+      </ul>
+      <p>
+        Some PSUs recruit candidates directly on the basis of their GATE scores with some specific required cutoff or percentile while some shortlist the candidates on the basis of their GATE scores for further stages of assessment that may include group discussion, descriptive examination or personal interview or all of these varying from company to company. Every PSU releases its own notification for the job.
+      </p>
+      <p>        
+        ESE or the Engineering Services Examination is conducted by UPSC (Union Public Service Commission). It is conducted in 3 stages – Prelims, Mains and Personal Interview. After qualifying all the three stages, the candidate is recruited as an IES officer. Officers recruited through ESE are mandated to manage and conduct activities in diverse technical fields.
+      </p>
+      <p>
+        Major posts offered to IES officers of electronics and communication engineering as their major discipline are as follows:
+        <ul>
+          <li>Indian Railway Service of Signal Engineers.</li>
+          <li>Indian Railway Stores Service (Telecommunication/Electronics Engineering Posts).</li>
+          <li>Indian Radio Regulatory Service Grade ‘A’.</li>
+          <li>Indian Telecommunication Service Grade ‘A’.</li>
+          <li>Indian Naval Armament Service (Electronics and Telecom Engineering Posts).</li>
+          <li>Asst. Naval Store Officer Grade‐I (Electronics and Telecom Engineering Posts) in Indian Navy.</li>
+          <li>Central Power Engineering Service Grade ‘A’ (Electronics & Telecom Engineering Posts).</li>
+          <li>Indian Skill Development Service.</li>
+          <li>Junior Telecom Officer Grade ‘B’.</li>
+          <li>Central Power Engineering Service Grade ‘B’ (Electronics & Telecom Engineering Posts).</li>
+          <li>Military Engineer Services</li>
+        </ul>
+      </p>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- footer -->
+<!-- for contact us container -->
+<div class="container-fluid text-center myfooter  py-3" style="background-color: #17202A;color: #fff">
+  <h1>Contact Us</h1>
+  <hr class='hr'>
+          <div class="container mx-auto">
+                <h2>E-Literate</h2>
+                    <address> 0259-N HUMAYUNPUR NORTH ,GORAKHPUR 273001 <br>Uttar Pradesh <br>teameliterate@eliterate.in </address>
+                <ul class="mx-auto" >
+                <li>
+                  <a href="https://www.instagram.com/eliterate.in/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+    </div>
+
+     <div class="container-fluid myfooter2 text-center" style="background-color: #17202A;color: #fff;">
+           <p>  &copy; Copyright 2020 E-literate. All Right Reserved </p>
+           <ul>
+               <li><a  href="#" class="btn btn2">privacy </a></li>
+               <li><a  href="#" class="btn btn2">T&C</a></li>
+               <li><a  href="#" class="btn btn2">services</a></li>
+           </ul>
+</div>
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/bootnavbar.js" ></script>
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar({
+                //option
+                //animation: false
+            });
+        })
+    </script>
+  </body>
+</html>

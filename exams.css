@@ -1,0 +1,53 @@
+
+  .gate .card
+      {
+        border-radius: 10px;
+        margin-bottom: 3px;
+      }
+      .gate .card-body
+      {
+        background-color: #90d1f5;
+      }
+      .gate .btn 
+      {
+         color: black;
+      }
+      
+      .gate
+      {
+        background-color:#1083c2;
+        border-radius: 20px;
+      }
+      
+      
+      }
+      .gate p , ul
+      {
+
+        /*color: #fffaf0;*/
+        color: black;
+      }
+      .gate-branch
+      {
+        font-size: 2rem;
+        margin: 10px 0px;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      
+      @media screen and (max-width:750px)
+      {
+        .gate-branch
+      {
+        font-size: 1.5rem;
+      }
+      }
+
+
+      @media screen and (max-width:450px)
+      {
+        .gate-branch
+      {
+        font-size: 1.1rem;
+      }
+      }

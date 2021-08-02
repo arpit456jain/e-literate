@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Study Material</title>
+    <link rel="stylesheet" type="text/css" href="exams.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
+    <style>
+      .downloadbtn
+      {
+        margin-bottom: 8px;
+      }
+      .downloadbtn:hover
+
+      {
+        border-radius: 20px;
+        color: #fff;
+        transition:.6s;
+        font-size: 1.2rem;
+        margin: 2px; 
+        background-color:orange;
+        font-weight: 600;
+      }
+      .myframe
+      {
+      	width:100% ;
+      	height:60vh;
+      }
+      .loginbutton .btn
+      {
+      	padding: 2px 2px;
+      }
+    </style>
+
+  </head>
+<body>
+
+<!-- <!WHATS APP plugin> -->
+
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+       <div class="elfsight-app-83fd1fcd-6082-4803-a45f-c747320345c0"></div>  
+<!-- navbar  -->
+  <nav class="navbar navbar-expand-lg mylogo navbar-light " style="background-color: #17202A;color: #fff;">
+    <a href="index.html"><img src="logo.png"></a>
+     <!-- <a class="navbar-brand2 ml-3" href="/">E-LITERATE</a> -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#b9bffa; color: #b9bffa;">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+             <a class="navbar-brand"  href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-brand" href="programs.html">PROGRAMS</a>
+          </li>
+          <li class="nav-item dropdown" >
+                    <a class="navbar-brand dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        EXAMS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="neet.html">NEET </a></li>
+                        <li><a class="dropdown-item" href="jeeMains.html">JEE Mains</a></li>
+                        <li><a class="dropdown-item" href="cet.html">CET </a></li>
+                        <li><a class="dropdown-item" href="gate.html">GATE</a></li>
+                        <div class="dropdown-divider"></div>
+                        <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle mygate" href="#" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false" style="background-color: #1083c2">
+                                    Gate
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li><a class="dropdown-item" href="gate-CSE.html">GATE-CSE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CHE.html">GATE-CHE</a></li>
+                                    <li><a class="dropdown-item" href="gate-CE.html">GATE-CE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ME.html">GATE-ME</a></li>
+                                    <li><a class="dropdown-item" href="gate-EE.html">GATE-EE</a></li>
+                                    <li><a class="dropdown-item" href="gate-ECE.html">GATE-ECE</a></li>
+                                </ul>
+                        </li>
+                    </ul>
+       </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="study material.html">STUDY MATERIAL</a>
+        </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="prev year papers.html">PREVIOUS YEAR PAPERS</a>
+      </li>
+      <li class="nav-item">
+          <a class="navbar-brand" href="our interns.html">OUR INTERNS</a>
+      </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="about us.html">ABOUT US</a>
+        </li>
+           <li class="nav-item loginbutton">
+          <a  class="btn btn-primary" data-toggle="modal" data-target="#login">login</a>
+          <a  class="btn  btn-primary" href="signup.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- login and sign up modal -->
+
+<!-- Modal for login-->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-primary">Log in</button>
+        </form>
+      </div>
+      <p class="text-center">Don't have a account ? <a href="signup.html">click here</a></p>
+    </div>
+  </div>
+</div>
+<!-- Button trigger modal -->
+
+
+
+<div class="container-fluid  py-4 text-center" >
+  <h1>Previous Year Papers </h1>
+  <div class="container py-3 mt-2 myicons">
+    <div class="row" id="myicons2">
+
+        <!-- Modal -->
+          <div class="modal fade" id="JEE-Mains" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">JEE-Mains</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/1.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">Jee-Mains</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#JEE-Mains">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- Modal -->
+          <div class="modal fade" id="NEET" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">NEET</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/2.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">NEET</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#NEET">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-CSE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-CSE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/3.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title"> GATE-CSE</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-CSE">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-ECE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-ECE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/4.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">GATE-ECE</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-ECE">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-ME" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-ME</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/5.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">GATE-ME</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-ME">Download
+              </button>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!-- card end -->
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-EE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-EE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/6.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">GATE-EE</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-EE">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-CE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-CE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/7.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">GATE-CE</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-CE">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+
+      <!-- Modal -->
+          <div class="modal fade" id="GATE-CHE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">GATE-CHE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/8.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">GATE-CHE</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#GATE-CHE">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+
+      <!-- Modal -->
+          <div class="modal fade" id="CET" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">CET</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/9.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">CET</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#CET">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+
+      <!-- Modal -->
+          <div class="modal fade" id="UPTU" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">UPTU</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                   <iframe class="myframe" src="https://drive.google.com/embeddedfolderview?id=1_qUugjK5QYessIcuARjVB4L0F28Wmef-"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end -->
+
+        <!-- card for which modal will be opend -->
+        <div class="col-lg-3 col-md-4 col-sm-5 col-6 col">
+        <div class="card mb-3 flip bg-card">
+          <div class="row no-gutters">
+            <div class="col-md-4 pl-2 py-3">
+              <img src="icons/10.jpg" class="card-img ml-1" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body mt-2 px-1">
+                <h5 class="card-title">UPTU</h5>
+              </div>
+               <button type="button" class="btn btn-warning downloadbtn" data-toggle="modal" data-target="#UPTU">Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card end -->
+
+    
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<!-- for contact us container -->
+<div class="container-fluid text-center myfooter  py-3" style="background-color: #17202A;color: #fff">
+  <h1>Contact Us</h1>
+  <hr class='hr'>
+          <div class="container mx-auto">
+                <h2>E-Literate</h2>
+                    <address> 0259-N HUMAYUNPUR NORTH ,GORAKHPUR 273001 <br>Uttar Pradesh <br>teameliterate@eliterate.in </address>
+          <ul class="mx-auto" >
+                <li>
+                  <a href="https://www.instagram.com/eliterate.in/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+          </ul>
+    </div>
+
+     <div class="container-fluid myfooter2 text-center" style="background-color: #17202A;color: #fff;">
+           <p>  &copy; Copyright 2020 E-literate. All Right Reserved </p>
+           <ul>
+               <li><a  href="#" class="btn btn2">privacy </a></li>
+               <li><a  href="#" class="btn btn2">T&C</a></li>
+               <li><a  href="#" class="btn btn2">services</a></li>
+           </ul>
+</div>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+      <script src="js/bootnavbar.js" ></script>
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar({
+                //option
+                //animation: false
+            });
+        })
+    </script> 
+  </body>
+</html>
